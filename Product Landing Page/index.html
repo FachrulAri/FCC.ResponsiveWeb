@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        width="360"
+        height="280"
+        src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#welcome-section" class="nav-link">Projects</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#social" class="nav-link">Projects</a></li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome-section">
+      <h1>Fachrul Portofolio</h1>
+    </section>
+    <section id="projects">
+      <div class="project-tile">
+        <a target="_blank" href="google.com">My Web</a>
+        <iframe
+          id="video"
+          width="1026"
+          height="577"
+          src="https://www.youtube.com/embed/_0LKEyuTCX0"
+          title="Undertale Mashup - Hopes and Dreams - His Theme - SAVE the World - Last Goodbye"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <section>
+      <form
+        id="form"
+        method="post"
+        action="https://www.freecodecamp.com/email-submit"
+      >
+        <label for="first-name"
+          >Enter Your First Name:
+          <input id="first-name" name="first-name" type="text" required
+        /></label>
+        <label for="last-name"
+          >Enter Your Last Name:
+          <input id="last-name" name="last-name" type="text" required
+        /></label>
+        Enter Your Email:
+        <input
+          id="email"
+          name="email"
+          type="email"
+          required
+          placeholder="Enter Email"
+        />
+        <label for="new-password"
+          >Create a New Password:
+          <input
+            id="new-password"
+            name="new-password"
+            type="password"
+            pattern="[a-z0-5]{8,}"
+            required
+        /></label>
+        <input
+          id="submit"
+          type="submit"
+          value="Submit"
+          action="https://www.freecodecamp.com/email-submit"
+        />
+      </form>
+    </section>
+    <section id="social">
+      <a target="_blank" href="github.com" id="profile-link">My Web</a>
+    </section>
+  </body>
+</html>
